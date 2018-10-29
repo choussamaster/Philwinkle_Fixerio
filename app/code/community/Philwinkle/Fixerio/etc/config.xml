@@ -32,7 +32,12 @@
             <fixerio>
                 <timeout>60</timeout>
                 <access_key></access_key>
+                <fetch_only_base>1</fetch_only_base>
+                <base>EUR</base>
             </fixerio>
+            <import>
+                <service>fixerio</service>
+            </import>
         </currency>
     </default>
 </config>
